@@ -1,6 +1,6 @@
-var i = 100;
-var result;
-for(i=0; i>100; i++) {
-   result = fizzbuzz(i);
-   console.log(result);
+var fzj = require('./fizzbuzz.js');
+
+for(i=0; i<100; i++) {
+   console.log(fzj.write(i));
 }
+console.log('That\'s is the Folks');
